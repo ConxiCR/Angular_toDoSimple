@@ -1,0 +1,21 @@
+.appFormulary{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: lavender;
+    width: 20%;
+}
+label{
+    color: grey;
+    margin-top: 10px;
+}
+input{
+    background-color: goldenrod;
+}
+.appButton{
+    margin-top: 10px;
+    background-color: lightblue;
+}

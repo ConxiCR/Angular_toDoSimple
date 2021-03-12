@@ -1,1 +1,14 @@
-<p>formulary works!</p>
+<h1>Formulary list</h1>
+<!--<form class="appFormulary"  action="">-->
+   <div>
+        <label>Title</label>
+        <input type="text" [(ngModel)] = "nuevaTarea.title">
+    </div>
+    <div>
+        <label>Description</label>
+        <input type="text" [(ngModel)] = "nuevaTarea.description">
+    </div>
+    <button (click)="onClick()">Send</button>
+<!--</form>-->
+
+{{ nuevaTarea | json }}
